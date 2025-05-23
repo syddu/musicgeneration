@@ -7,8 +7,6 @@ from dotenv import load_dotenv
 import os
 load_dotenv()  # Loads variables from .env
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY")) 
-client = OpenAI(api_key="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") 
-# Create note variables for violin/cello octaves
 # Octave 3
 quarter_rest = note.Rest('quarter')
 cf3 = note.Note('C-3')
